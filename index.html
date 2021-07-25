@@ -16,6 +16,33 @@ body {
     text-align: center;
     vertical-align: middle;
 }
+
+.image-fade-in-out-container {
+  position: relative;
+}
+
+.image-fade-in-out {
+  opacity: 0.0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-fade-in-out:hover {
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+}
+
+.image-fade-in-out-mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 </style>
-<img src="chelchSUCKS.png" class="imgs" />
+<img src="chelchSUCKS.png" class="imgs image-fade-in-out" />	
+
+</div>
 </html>
