@@ -15,39 +15,6 @@ body {
 	
 }
 
-
-/* @media (max-width:768) and (orientation:portrait){
-	body {
-	
-	}
-	.harmstem{
-	height:100%;
-	}
-	.imgs{
-		height:30vh;
-		}
-}
- */
-/* @media (min-aspect-ratio: 16/9){
-	body {
-	background-color: #eee;
-	}
-	.harmstem {
-	display:grid;
-	justify-content:center;
-	z-index:0;
-	
-	margin-left:8vh;
-	margin-right: 8vh;
-	height:100vh;
-	width:auto;
-	position:fixed;
-	flex-wrap:wrap;
-	
-	}
-} */
-
-
 @media (min-width: 771px) and (max-width: 1080px) and (orientation:portrait){
 	body {
 	
